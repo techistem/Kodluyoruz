@@ -1,15 +1,16 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 
 /* Asterisk wilcard selector to override default styles added by the browser */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /* Genaral styles */
 body {
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,20 +19,30 @@ body {
   font-family: 'Roboto', sans-serif;
 
 }
+
 /* Header */
-header {
-  background-color: black;
-  
-
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
+
+.logo {
+  width: 400px;
+}
+
 /* Main */
-main {
-  background-color: pink;
-  flex: 1 0 auto;
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Footer */
-footer{
-  background-color: aqua;
+.clock {
+  text-align: center;
+  font-size: 50px;
+ 
 }
+
