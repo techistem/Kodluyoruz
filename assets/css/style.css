@@ -35,14 +35,24 @@ body {
 /* Main */
 
 .container {
+  position: relative;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.clock {
-  text-align: center;
-  font-size: 50px;
- 
+h2 {
+  margin: 0;
+  font-size: 2em;
+
 }
+
+.clock {
+  font-size: 5em;
+  margin: 10px 0;
+}
+
+
+
 
